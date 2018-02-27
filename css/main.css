@@ -37,6 +37,13 @@ h1 {
     padding-top: 10px;
 }
 
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 200;
+}
+
 nav {
     height: 40px;
     background-color: #8EC2D2; 
@@ -86,6 +93,11 @@ a {
     float: right;
 }
 
+article {
+    clear: both;
+    margin-top: 20px;
+}
+
 footer {
     clear: both;
     z-index: 1;
@@ -94,6 +106,18 @@ footer {
 
 footer p {
     margin: 10px 0 0 10px;
+}
+
+/*----------------------- DESTINATION DOWNTOWN--------------------------------*/
+.downtownImg {
+    background-color: #b09f96;
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+.downtownP {
+    margin: 20px;
 }
 
 /*-------------------------------------------------------------------------------
@@ -172,6 +196,35 @@ footer p {
         padding: 5px;
         margin-top: 5px;
     }
+
+    /*----------------------- DESTINATION DOWNTOWN--------------------------------*/
+    .downtownImg {
+        background-color: #b09f96;
+        width: 42.5%;
+        height: 300px;
+    }
+
+   #downtownImg1 {
+        float:left;
+        margin: 0 0 0 5%;
+    }
+
+    #downtownImg2 {
+        float:right;
+        margin: 0 5% 0 0;
+    }
+
+    .downtownP {
+        /*width: 42.5%*/
+    }   
+
+    #downtownP1 {
+       margin: 0 5% 0 5%; 
+    } 
+
+    #downtownP2 {
+        margin: 0 5% 0 5%;
+    } 
 }
 
 /*------------------------------------------------------------------------
