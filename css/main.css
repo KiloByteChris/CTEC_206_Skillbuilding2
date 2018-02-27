@@ -1,0 +1,160 @@
+/*
+
+    CSS for Economic Development of Vancouver
+    Team Couve Living
+    CGT 206 - Skill Building 2
+    Winter 18
+
+    COLORS
+        #8EC2D2 rgb(128, 187, 204) - light cyan/light cerulean
+        #3892A0 rgb(56, 146, 160) - strong cyan/strong arctic blue
+        #B0A096 rgb(176, 160, 150) - orangish gray/tangeloish gray.
+        #BFC0C1 rgb(191, 192, 193) - cyan-bluish gray/azureish gray
+*/
+
+/*------------------------------------------------------------------------------
+---------------------------- MAIN CSS ------------------------------------------
+------------------------------------------------------------------------------*/
+body {
+    font-family: sans-serif;
+}
+
+#wrapper {
+    max-width: 399px;
+    width: 100%; 
+}
+
+header {
+    height: 150px;
+    background-color: #3892A0;
+    font-size: 2.5em;
+    color : #FFF;
+    border-bottom: 1px solid #000;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav {
+    height: 40px;
+    background-color: #8EC2D2; 
+    border-bottom: 1px solid #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navList {
+    position: relative;
+    display: none;
+    clear: both;
+    z-index: 99;
+}
+
+.navLink {
+    font-size: 2em;
+    padding: 10px 0 10px 0;
+    max-width: 399px;
+    width: 100%;
+    background-color: #8EC2D2;
+    color: #FFF;
+    border-bottom: 1px solid #000;
+}
+
+.navLink a {
+    color: #FFF;
+    margin-left: 10px;
+}
+
+.navLink a:hover {
+    color: #DDD;
+}
+
+.navLink a:active {
+    color: #999;
+}
+
+.burger {
+    color: #FFF;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-right: 10px; 
+    float: right;
+}
+
+footer {
+    clear: both;
+    z-index: 1;
+    border-top: 1px solid #000;
+}
+
+footer p {
+    margin: 10px 0 0 10px;
+}
+
+/*-------------------------------------------------------------------------------
+-----------------------------SMALL MOBILE CSS------------------------------------
+-------------------------------------------------------------------------------*/
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+    #wrapper {
+    max-width: 599px;
+    width: 100%; 
+    }
+    
+    .navLink {
+        max-width: 599px;
+        width: 100%;
+    }
+}
+
+/*-------------------------------------------------------------------------------
+-----------------------------LARGE MOBILE CSS------------------------------------
+-------------------------------------------------------------------------------*/
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+    #wrapper {
+    max-width: 960px;
+    width: 100%; 
+    }
+    
+    .navLink {
+        max-width: 960px;
+        width: 100%;
+    }
+}
+
+/*-----------------------------------------------------------------------
+-----------------------------TABLET CSS----------------------------------
+-------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    #wrapper {
+        max-width: 1280px;
+        width: 100%; 
+    }
+    
+    .burger {
+        display: none;
+    }
+    
+    .navList {
+        display: inline;
+        margin: 0 auto;
+        clear: both;
+        width: 100%;
+    }
+    
+    .navLink {
+        font-size: 1.5em;
+        display: inline;
+        border: none;
+        margin: 0 auto;
+    }
+}
+
+/*------------------------------------------------------------------------
+------------------------------DESKTOP CSS---------------------------------
+-------------------------------------------------------------------------*/
+@media only screen and (min-width: 1280px) {
+}
