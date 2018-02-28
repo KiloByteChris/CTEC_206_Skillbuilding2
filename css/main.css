@@ -35,6 +35,7 @@ header {
 h1 {
     text-align: center;
     padding-top: 10px;
+    font-family: "Arial Rounded MT Bold" sans-serif;
 }
 
 h2 {
@@ -48,10 +49,16 @@ nav {
     height: 40px;
     background-color: #8EC2D2; 
     border-bottom: 1px solid #000;
+    font-family: "Myriad Pro";
 }
 
 a {
     text-decoration: none;
+}
+
+p {
+    font-family: Athelas;
+    margin-top: 10px;
 }
 
 .navList {
@@ -118,7 +125,22 @@ footer p {
 
 .downtownP {
     margin: 20px;
+    
 }
+
+/*--------------------------- BLOCK 10 ----------------------------------------*/
+#block10Img {
+    width: 300px;
+    height: 300px;
+    background-color: #b09f96;
+    margin: 0 auto;
+}
+
+.block10P {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 
 /*-------------------------------------------------------------------------------
 -----------------------------SMALL MOBILE CSS------------------------------------
@@ -156,6 +178,21 @@ footer p {
     h1 {
         padding-top: 30px;
     }
+    
+    /*--------------------------- BLOCK 10 ----------------------------------------*/
+    #block10Img {
+        width: 300px;
+        height: 300px;
+        background-color: #b09f96;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .block10P {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
 }
 
 /*-----------------------------------------------------------------------
@@ -225,6 +262,19 @@ footer p {
     #downtownP2 {
         margin: 0 5% 0 5%;
     } 
+    /*--------------------------- BLOCK 10 ----------------------------------------*/
+    #block10Img {
+        width: 300px;
+        height: 300px;
+        background-color: #b09f96;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .block10P {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 /*------------------------------------------------------------------------
@@ -260,4 +310,40 @@ footer p {
         border: none;
         width: initial;
     }
+    /*----------------------- DESTINATION DOWNTOWN--------------------------------*/
+    
+    #downtownImg1 {
+        float:left;
+        margin: 0 0 0 5%;
+    }
+
+    #downtownImg2 {
+        float:right;
+        margin: 0 5% 0 0;
+    }
+
+    .downtownP {
+        /*width: 42.5%*/
+    }   
+
+    #downtownP1 {
+       margin: 0 5% 0 5%; 
+    } 
+
+    #downtownP2 {
+        margin: 0 5% 0 5%;
+    } 
+    /*--------------------------- BLOCK 10 ----------------------------------------*/
+    #block10Img {
+        width: 300px;
+        height: 300px;
+        background-color: #b09f96;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .block10P {
+        margin-left: 5%;
+        margin-right: 5%;
+}
 }
