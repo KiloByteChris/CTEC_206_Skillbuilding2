@@ -29,13 +29,14 @@ header {
     background-color: #3892A0;
     font-size: 2.5em;
     color : #FFF;
-    border-bottom: 1px solid #000;
+    border: 1px solid #000;
 }
 
 h1 {
     text-align: center;
     padding-top: 10px;
-    font-family: "Arial Rounded MT Bold" sans-serif;
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+    text-shadow: 2px 2px #333;
 }
 
 h2 {
@@ -43,12 +44,25 @@ h2 {
     padding: 20px;
     font-size: 2em;
     font-weight: 200;
+    border-bottom: 1px solid #eee;
+}
+
+h3 {
+    font-family: arial, sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    margin-left: 20px;
+    border-bottom: 1px solid #ccc;
+    max-width: 300px;
 }
 
 nav {
     height: 40px;
     background-color: #8EC2D2; 
     border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
     font-family: "Myriad Pro";
 }
 
@@ -58,7 +72,8 @@ a {
 
 p {
     font-family: Athelas;
-    margin-top: 10px;
+    margin: 20px;
+    line-height: 1.2em;
 }
 
 .navList {
@@ -109,6 +124,7 @@ article {
 footer {
     clear: both;
     z-index: 1;
+    margin-top: 20px;
     border-top: 1px solid #000;
 }
 
@@ -125,15 +141,20 @@ footer p {
 }
 
 .downtownP {
-    margin: 20px;
-    
+    margin: 20px; 
+}
+
+/*--------------------------- WATERFRONT ----------------------------------------*/
+#waterfrontPicture {
+    display: block;
+    width: 300px;
+    /*height: auto;*/
+    margin: 0 auto;
 }
 
 /*--------------------------- BLOCK 10 ----------------------------------------*/
 #block10Img {
     width: 300px;
-    height: 300px;
-    background-color: #b09f96;
     margin: 0 auto;
 }
 
@@ -153,7 +174,8 @@ footer p {
     }
 
     h1 {
-        padding: 15px;
+        font-size: .9em;
+        padding: 35px 10px 10px 10px;
     }
     
     .navLink {
@@ -177,14 +199,21 @@ footer p {
     }
 
     h1 {
-        padding-top: 30px;
+        font-size: 1.1em;
+        padding-top: 40px;
+    }
+
+    /*--------------------------- WATERFRONT ----------------------------------------*/
+    #waterfrontPicture {
+        display: block;
+        width: 500px;
+        /*height: auto;*/
+        margin: 0 auto;
     }
     
     /*--------------------------- BLOCK 10 ----------------------------------------*/
     #block10Img {
         width: 300px;
-        height: 300px;
-        background-color: #b09f96;
         float: right;
         margin-right: 5%;
         margin-left: 5%;
@@ -210,7 +239,8 @@ footer p {
     }
 
     h1 {
-        padding-top: 40px;
+        font-size: 1.2em;
+        padding-top: 50px;
     }
     
     .burger {
@@ -263,11 +293,18 @@ footer p {
     #downtownP2 {
         margin: 0 5% 0 5%;
     } 
+
+    /*--------------------------- WATERFRONT ----------------------------------------*/
+    #waterfrontPicture {
+        display: block;
+        width: 550px;
+        float: right;
+        margin: 10px 5% 10px 5%;
+    }
+
     /*--------------------------- BLOCK 10 ----------------------------------------*/
     #block10Img {
         width: 300px;
-        height: 300px;
-        background-color: #b09f96;
         float: right;
         margin-right: 5%;
         margin-left: 5%;
@@ -290,11 +327,16 @@ footer p {
     }
 
     h1 {
-        padding: 40px;
+        padding: 50px 40px 40px 40px;
+        font-size: 1.3em;
     }
 
     nav {
-        height: 45px;
+        height: 42px;
+    }
+
+    h2 {
+        margin-top: 10px;
     }
 
     .burger {
@@ -311,6 +353,7 @@ footer p {
         display: inline-block;
         border: none;
         width: initial;
+        padding: 10px;
     }
     /*----------------------- DESTINATION DOWNTOWN--------------------------------*/ 
     .downtownImg {
@@ -340,11 +383,17 @@ footer p {
     #downtownP2 {
         margin: 0 5% 0 5%;
     } 
+    /*------------------------------ WATERFRONT-----------------------------------*/
+    #waterfrontPicture {
+        display: block;
+        width: 550px;
+        float: right;
+        margin: 10px 5% 10px 5%;
+    }
+    
     /*--------------------------- BLOCK 10 ----------------------------------------*/
     #block10Img {
         width: 300px;
-        height: 300px;
-        background-color: #b09f96;
         float: right;
         margin-right: 5%;
         margin-left: 5%;
