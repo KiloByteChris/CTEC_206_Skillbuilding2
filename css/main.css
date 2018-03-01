@@ -62,6 +62,7 @@ p {
 }
 
 .navList {
+    font-size: .9em;
     position: relative;
     display: none;
     clear: both;
@@ -186,13 +187,13 @@ footer p {
         background-color: #b09f96;
         float: right;
         margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 10px;
     }
 
     .block10P {
         margin-left: 5%;
-        margin-right: 5%;
-    }
-    
+    } 
 }
 
 /*-----------------------------------------------------------------------
@@ -237,18 +238,18 @@ footer p {
     /*----------------------- DESTINATION DOWNTOWN--------------------------------*/
     .downtownImg {
         background-color: #b09f96;
-        width: 42.5%;
+        width: 300px;
         height: 300px;
     }
 
    #downtownImg1 {
         float:left;
-        margin: 0 0 0 5%;
+        margin: 0 5% 10px 5%;
     }
 
     #downtownImg2 {
         float:right;
-        margin: 0 5% 0 0;
+        margin: 0 5% 0 5%;
     }
 
     .downtownP {
@@ -269,12 +270,13 @@ footer p {
         background-color: #b09f96;
         float: right;
         margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 10px;
     }
 
     .block10P {
         margin-left: 5%;
-        margin-right: 5%;
-    }
+    } 
 }
 
 /*------------------------------------------------------------------------
@@ -310,16 +312,21 @@ footer p {
         border: none;
         width: initial;
     }
-    /*----------------------- DESTINATION DOWNTOWN--------------------------------*/
-    
-    #downtownImg1 {
+    /*----------------------- DESTINATION DOWNTOWN--------------------------------*/ 
+    .downtownImg {
+        background-color: #b09f96;
+        width: 300px;
+        height: 300px;
+    }
+
+   #downtownImg1 {
         float:left;
-        margin: 0 0 0 5%;
+        margin: 0 5% 10px 5%;
     }
 
     #downtownImg2 {
         float:right;
-        margin: 0 5% 0 0;
+        margin: 0 5% 0 5%;
     }
 
     .downtownP {
@@ -340,10 +347,11 @@ footer p {
         background-color: #b09f96;
         float: right;
         margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 10px;
     }
 
     .block10P {
         margin-left: 5%;
-        margin-right: 5%;
-}
+    } 
 }
